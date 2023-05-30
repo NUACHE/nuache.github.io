@@ -94,7 +94,7 @@ const Navbar = () => {
                     <LinkedInIcon className={''} />
                 </motion.a>
                 
-              <button
+              {/* <button
               onClick={()=> {
                  setMode(mode === "light" ? "dark": "light")
 
@@ -111,7 +111,7 @@ const Navbar = () => {
             : 
             <MoonIcon className={'fill-light'} />
         }
-              </button>
+              </button> */}
             </nav>
             </div>
 
@@ -142,7 +142,7 @@ const Navbar = () => {
                     <LinkedInIcon className={''} />
                 </motion.a>
                
-              <button
+              {/* <button
               onClick={()=> {
                  setMode(mode === "light" ? "dark": "light")
 
@@ -159,7 +159,7 @@ const Navbar = () => {
             : 
             <MoonIcon className={'fill-light'} />
         }
-              </button>
+              </button> */}
             </nav>
             </motion.div>: null}
             {/* <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
