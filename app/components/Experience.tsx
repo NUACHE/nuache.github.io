@@ -45,35 +45,52 @@ const Experience = () => {
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                 
                     <Details 
-                  position="Frontend Developer" company="Innorik"
+                  position="Full-stack Developer" company="Innorik"
                   companyLink="https://www.innorik.com"
               time="2023-Present" address=" Spintex, Accra"
-                work="    Worked on a team responsible for developing new features for Enterprise Resource Planning system, InnoX, and 
-                    developing new tools for data analysis and visualization."
+                work={`
+                •Collaborated with product team to understand requirements and business specifications around enterprise planning and management and determining appropriate tools for handling the requirements.\n
+                
+                `}
                     
                     />
                     <Details 
-                  position="Frontend Developer" company="DUXGH"
+                  position="Frontend Engineer" company="DUXGH"
                   companyLink="https://duxgh.com/"
               time="2022-Present" address="Legon, Accra"
-                work="    Responsible for developing a website that resulted in a substantial growth of our user base, 
-                exceeding a milestone of over 120%."
+                work ="
+                •Partnered with backend developers and design team to convert Apis and UI/UX into functional dynamic web pages using react, tailwind and typescript.
+               
+                "
                     
                     />
                      <Details 
-                  position="Frontend Intern" company="AmaliTech"
-                  companyLink="https://amalitech.org"
-              time="2022" address=" Takoradi"
-                work="    Worked on diverse projects and tasks, often requiring quick adaptability to new situations. I learned to embrace change and 
-                efficiently manage my time and priorities in a dynamic work environment."
+                  position="Mobile Application Developer" company="Spike SH"
+                  companyLink=""
+              time="2022" address=" Accra"
+                work="
+                •Collaborated with CTO, backend developers and design team to plan app's requirements and specifications. 
+              
+                "
+                    
+                    />
+                     <Details 
+                  position="Mobile Application Developer" company="Cache Technology"
+                  companyLink="https://spike.sh"
+              time="2022" address=" India"
+                work="
+                •Led mobile team in developing a data management and tracking system, implementing charts, graphs and tables using flutter and Syncfusion to provide accurate data projections for The Council for Scientific & Industrial Research (CSIR).
+               
+                "
                     
                     />
                     <Details 
                   position="Frontend Developer" company="UvitechGH"
                   companyLink="https://uvitechgh.com/"
               time="2019" address=" Tamale"
-                work="    Maintained, developed and designed the public website, leading to increased user time on the website
-                 and improved customer experience.
+                work="
+                •Supervised and led a team of 3 interns to develop a booking and ticketing application, for booking events and buying tickets, using react, tailwind, typescript and redux.
+               
                 "
                     
                     />

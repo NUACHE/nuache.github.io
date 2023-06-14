@@ -42,14 +42,7 @@ const Education = () => {
             " />
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                 
-            <Details 
-                  type=" Front-End Engineer Certification" time="2022"
-                  place="Codecademy" 
-                  info="Learned to make websites beautiful, functional, and fast. 
-                  Obtained the specialized skills and portfolio needed to start your career as a Front-End Engineer. Relevant concepts  
-                  included Object and Data Structures, Test-Driven Development and SOLID Principle.
-                  " 
-                    />
+           
                     <Details 
                   type=" Bachelor Of Science In Electrical Engineering" time="2018-2022"
                   place="Kwame Nkrumah University Of Science and Technology (KNUST)"
