@@ -1,23 +1,18 @@
-import { PROJECTS } from "@/db/projects";
-import Image from "next/image";
+import { getBlogs } from "@/utils/fetch-mdx";
 import Link from "next/link";
 import React from "react";
+import { PROJECTS } from "@/db/projects";
 
-function ProjectSection() {
+async function Page() {
+  const blogs = await getBlogs();
   return (
     <div className="mb-16">
       <div className="flex flex-row justify-between items-center gap-5">
         <h4>Projects</h4>
-        <Link
-          href={"/projects"}
-          className="text-neutral-500 underline hover:text-black ease-in-out duration-500"
-        >
-          <p className="text-sm">View Projects</p>
-        </Link>
       </div>
       <br />
       <div>
-        {PROJECTS.slice(0,3).map((item) => {
+        {PROJECTS.map((item) => {
           return (
             <Link href={`${item.href}`} key={item.id} target="_blank">
               <div className="border-b  border-dashed py-5 hover:scale-[1.02] ease-in-out duration-500">
@@ -45,4 +40,4 @@ function ProjectSection() {
   );
 }
 
-export default ProjectSection;
+export default Page;
